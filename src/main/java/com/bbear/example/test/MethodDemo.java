@@ -26,6 +26,7 @@ public class MethodDemo {
         List<T> list = new ArrayList<T>();
         list.add(param);
         list.add(param2);
+        System.out.println(list.toString());
         return list;
     }
 }
