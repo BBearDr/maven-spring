@@ -32,8 +32,8 @@
       <file leaf-file-name="MethodDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="294">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -719,7 +719,7 @@
       <workItem from="1517392372103" duration="25740000" />
       <workItem from="1517555187277" duration="329000" />
       <workItem from="1517555712570" duration="15885000" />
-      <workItem from="1517897098595" duration="938000" />
+      <workItem from="1517897098595" duration="2109000" />
     </task>
     <servers />
   </component>
@@ -756,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121126000" />
+    <option name="totallyTimeSpent" value="122297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1171,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="294">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
