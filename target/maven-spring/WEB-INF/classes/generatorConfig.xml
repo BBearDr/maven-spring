@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--加载配置文件-->
+    <properties resource="genetorCondfig.properties"></properties>
+    <classPathEntry location="${jdbc.driverLocation}"/>
+
+    <context id="szhDefaultContext" targetRuntime="MyBatis3">
+
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!--jdbc的数据库连接 -->
+        <jdbcConnection driverClass="${jdbc.driver}"
+                        connectionURL="${jdbc.connectionURL}"
+                        userId="${jdbc.user}"
+                        password="${jdbc.pwd}">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!-- 生成的JavaBean-->
+        <javaModelGenerator targetPackage="com.dajie.sms.bean" targetProject="src/main/java">
+            <!--是否生成带参数的构造器-->
+            <property name="constructorBased" value="true"/>
+            <!--是否将生成的JavaBean在包一层package-->
+            <property name="enableSubPackages" value="false"/>
+            <property name="immutable" value="false"/>
+        </javaModelGenerator>
+        <!-- Mapper接口的生成 targetPackage生成文件的包名， targetProject文件的生成路径，
+              文件的总路径是targetProject/targetPackage-->
+        <sqlMapGenerator targetPackage="com.dajie.sms.dao.impl" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+        <!-- Mapper XML的生成 -->
+        <javaClientGenerator targetPackage="com.dajie.sms.dao.impl"
+                             targetProject="src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+
+        </javaClientGenerator>
+        <!-- 数据库名称对应的类名-->
+        <table tableName="tb_sms_distribute_info" domainObjectName="DistributeInfo2"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+            <!-- 字段类型是数字情况是否使用统一的类型，否则根据长度生成字段类型，
+               short,int,Long,BigDecimal(true情况)-->
+            <property name="useActualColumnNames" value="false"/>
+        </table>
+    </context>
+</generatorConfiguration>
