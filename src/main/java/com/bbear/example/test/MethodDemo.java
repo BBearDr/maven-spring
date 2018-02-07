@@ -21,6 +21,7 @@ public class MethodDemo {
             Serializable serializable = list.get(i);
             System.out.println(serializable.toString());
         }
+
     }
     private static <T> List<T> getList(T param,T param2){
         List<T> list = new ArrayList<T>();

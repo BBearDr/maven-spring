@@ -6,7 +6,65 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="8b676050-2e5c-4e35-a178-6f11c14bfc6d" name="Default" comment="" />
+    <list default="true" readonly="true" id="8b676050-2e5c-4e35-a178-6f11c14bfc6d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/control/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/control/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/pojo/UserPOJO.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/pojo/UserPOJO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Childer$ChildrenInnerClass.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Childer$ChildrenInnerClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Childer.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Childer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Father$FatherInnerClass.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Father$FatherInnerClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Father.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest$Father.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/ClassTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/MethodDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/MethodDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread1.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread2.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/Thread2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/ThreadJoin.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/test/thread/ThreadJoin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/Constans.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/Constans.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/DynProxyFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/DynProxyFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/RealSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/RealSubject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/Subject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/SubjectInvocationHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/activity_proxy/SubjectInvocationHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Beverage.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Beverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Condiment.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Condiment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/DecoratedMain.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/DecoratedMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Espresso.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Espresso.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/HouseBlend.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/HouseBlend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Mike.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Mike.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Mocha.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/decorated/Mocha.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Observer.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Observer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/StudentObserver.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/StudentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/Subject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/TeacherSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer/TeacherSubject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/StudentObserver.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/StudentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/TeacherSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/TeacherSubject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/observer_java/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Command.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Command.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/ConcreateCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/ConcreateCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/ConcreateReceiver.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/ConcreateReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Invoker.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Invoker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/OrderMain.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/OrderMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Receiver.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/order/Receiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Consumer.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Storage.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/Storage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/StorageLock.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/productAndConsume/StorageLock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/ProxySubject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/ProxySubject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/RealSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/RealSubject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/StaticSubjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/StaticSubjectFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/static_proxy/Subject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bbear/example/util/strategy/StrategyDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/bbear/example/util/strategy/StrategyDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/bbear/example/UserPOJO/UserPOJOTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/bbear/example/UserPOJO/UserPOJOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/bbear/example/util/activity_proxy/DynProxyFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/bbear/example/util/activity_proxy/DynProxyFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/bbear/example/util/static_proxy/StaticProxyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/bbear/example/util/static_proxy/StaticProxyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,19 +90,45 @@
       <file leaf-file-name="MethodDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <file leaf-file-name="ThreadDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="50">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2692#2693#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
+                <element signature="e#2763#2764#0" expanded="true" />
+                <element signature="e#2874#2875#0" expanded="true" />
+                <element signature="e#2918#2919#0" expanded="true" />
+                <element signature="e#2956#2957#0" expanded="true" />
+                <element signature="e#2988#2989#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,16 +206,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mocha.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/util/decorated/Mocha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Mike.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/util/decorated/Mike.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,9 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/bbear/example/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bbear/example/UserPOJO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bbear/example/UserPOJOTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/util/static_proxy/Subject.java" />
@@ -221,8 +292,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/util/order/OrderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/util/order/ConcreateReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/util/order/Invoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java" />
       </list>
     </option>
   </component>
@@ -290,11 +364,6 @@
             <path>
               <item name="maven-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,6 +371,30 @@
               <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,13 +406,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo.github.io" />
     <property name="SearchEverywhereHistoryKey" value="/tes&#9;FILE&#9;file:///home/zhihaosong/workspace/maven-spring/src/main/java/com/bbear/example/test" />
     <property name="last.edited.regexp" value="" />
   </component>
@@ -346,45 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderMain">
-    <configuration name="DecoratedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bbear.example.util.decorated.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bbear.example.util.decorated.DecoratedMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="maven-spring" />
-      <envs />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bbear.example.util.productAndConsume.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bbear.example.util.productAndConsume.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="maven-spring" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadD">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -407,14 +462,14 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bbear.example.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bbear.example.test.MethodDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.bbear.example.thread.ThreadD" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -429,33 +484,14 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration name="OrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.bbear.example.util.order.*" />
+          <option name="PATTERN" value="com.bbear.example.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bbear.example.util.order.OrderMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="maven-spring" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bbear.example.util.observer_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bbear.example.util.observer_java.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bbear.example.thread.ThreadDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -681,21 +717,15 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.mvn" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MethodDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DecoratedMain" />
-      <item index="5" class="java.lang.String" itemvalue="Application.OrderMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ThreadD" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadDemo" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.OrderMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MethodDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DecoratedMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.ThreadD" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -734,7 +764,7 @@
       <workItem from="1517555187277" duration="329000" />
       <workItem from="1517555712570" duration="15885000" />
       <workItem from="1517897098595" duration="2760000" />
-      <workItem from="1517899864037" duration="273000" />
+      <workItem from="1517899864037" duration="20052000" />
     </task>
     <servers />
   </component>
@@ -771,7 +801,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123221000" />
+    <option name="totallyTimeSpent" value="143000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,33 +814,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1541" height="904" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24088542" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33117723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14192708" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31510416" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16163649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16163649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42949548" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24191462" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -823,40 +852,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bbear/example/UserPOJO/UserPOJOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/util/static_proxy/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/util/activity_proxy/SubjectInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bbear/example/util/activity_proxy/DynProxyFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1178,19 +1178,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/test/MethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bbear/example/thread/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2763#2764#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,6 +1302,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
