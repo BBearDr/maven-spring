@@ -37,11 +37,19 @@ for x in range(1):
 # dict的key必须是不可变对象
 str = "name"
 d = {str: "1", "age": "18"}
+# 增加元素
+d['sex'] = "man"
+# 当没有key时，返回none，也可以自定义值
+# 删除使用pop,value也会对应的删除
+print(d)
 print(d['age'])
-print('Tom' in d)
 print(d.get('age'))
-# set
-s = set([1, 2, 3, 1])
+print(d.get('address', -1))
+print('Tom' in d)
+# set 无序无重复集合
+s = set([1, 2, 3])
+# 增加元素
+s.add(4)
 # 删除的是元素，不是坐标
 s.remove(1)
 print(s)
