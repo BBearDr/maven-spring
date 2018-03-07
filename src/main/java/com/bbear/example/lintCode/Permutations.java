@@ -11,10 +11,10 @@ import java.util.List;
  * @author junxiongchen
  * @date 2018/03/05
  */
-public class Test4 {
+public class Permutations {
     public static void main(String[] args) {
         int[] num = {1,2,3};
-        Test4 t = new Test4();
+        Permutations t = new Permutations();
         List<List<Integer>> permute = t.permute(num);
         System.out.println(permute);
     }

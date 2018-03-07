@@ -10,9 +10,9 @@ import java.util.List;
  * @author junxiongchen
  * @date 2018/03/06
  */
-public class Test6 {
+public class PermutationsDouble {
     public static void main(String[] args) {
-        Test6 t = new Test6();
+        PermutationsDouble t = new PermutationsDouble();
         int[] num = {1, 2, 2};
         List<List<Integer>> lists = t.permuteUnique(num);
         System.out.println(lists);

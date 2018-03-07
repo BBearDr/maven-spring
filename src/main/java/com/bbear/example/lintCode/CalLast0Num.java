@@ -7,7 +7,7 @@ package com.bbear.example.lintCode;
  * @author junxiongchen
  * @date 2018/02/23
  */
-public class Test1 {
+public class CalLast0Num {
     public static void main(String[] args) {
         System.out.println(calZero(101));
     }

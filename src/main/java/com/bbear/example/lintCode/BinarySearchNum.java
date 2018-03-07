@@ -1,10 +1,12 @@
 package com.bbear.example.lintCode;
 
 /**
+ * 使用二分查找，找出指定的重复数字的第一个下标位置
+ *
  * @author junxiongchen
  * @date 2018/03/06
  */
-public class Test5 {
+public class BinarySearchNum {
     public static void main(String[] args) {
         int[] num = {1, 2, 3, 3, 4, 5};
         int search = binarySearch(num, 3);

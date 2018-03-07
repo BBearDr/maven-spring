@@ -10,25 +10,25 @@ import java.util.Stack;
  * @author junxiongchen
  * @date 2018/02/23
  */
-public class Test2 {
+public class StackMin {
     Stack<Integer> s;
     Stack<Integer> fuzhu;
 
-    public Test2() {
+    public StackMin() {
         s = new Stack<>();
         fuzhu = new Stack<>();
     }
     public static void main(String[] args) throws Exception {
-        Test2 test2 = new Test2();
-        test2.push(13);
-        test2.push(7);
-        test2.push(11);
-        test2.push(2);
-        test2.push(1);
-        test2.pop();
-        System.out.println(test2.min());
-        System.out.println(test2.s);
-        System.out.println(test2.fuzhu);
+        StackMin stackMin = new StackMin();
+        stackMin.push(13);
+        stackMin.push(7);
+        stackMin.push(11);
+        stackMin.push(2);
+        stackMin.push(1);
+        stackMin.pop();
+        System.out.println(stackMin.min());
+        System.out.println(stackMin.s);
+        System.out.println(stackMin.fuzhu);
     }
     //压入堆的顶部
     private  void push(int number) {

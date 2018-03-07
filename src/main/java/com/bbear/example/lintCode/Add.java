@@ -6,7 +6,7 @@ package com.bbear.example.lintCode;
  * @author junxiongchen
  * @date 2018/02/08
  */
-public class Test {
+public class Add {
     public static void main(String[] args) {
         int a=2;
         int b = 3;
