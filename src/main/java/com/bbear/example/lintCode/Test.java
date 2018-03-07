@@ -8,7 +8,7 @@ package com.bbear.example.lintCode;
  */
 public class Test {
     public static void main(String[] args) {
-        int a=1;
+        int a=2;
         int b = 3;
         System.out.println(cal2(a, b));
     }
