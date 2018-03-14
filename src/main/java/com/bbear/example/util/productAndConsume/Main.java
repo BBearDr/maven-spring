@@ -8,9 +8,19 @@ package com.bbear.example.util.productAndConsume;
 public class Main {
     public static void main(String[] args) {
 //        Storage storage = new Storage();
-        StorageLock storage = new StorageLock();
-        // 生产者对象
+//        StorageLock storage = new StorageLock();
+        StorageQueue storage = new StorageQueue();
         Product p1 = new Product(storage);
+        Consumer c1 = new Consumer(storage);
+        c1.setNum(20);
+        p1.setNum(150);
+        for (int i = 0; i < 2; i++) {
+            new Thread(p1).start();
+            new Thread(c1).start();
+        }
+
+        // 生产者对象
+       /* Product p1 = new Product(storage);
         Product p2 = new Product(storage);
         Product p3 = new Product(storage);
         Product p4 = new Product(storage);
@@ -47,6 +57,6 @@ public class Main {
         p4.start();
         p5.start();
         p6.start();
-        p7.start();
+        p7.start();*/
     }
 }

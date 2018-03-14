@@ -12,10 +12,23 @@ public class Product extends Thread {
     /**
      * 所在仓库的位置
      */
-    private StorageLock storageLock;
+    //private StorageLock storageLock;
 
-    public Product(StorageLock storageLock) {
+    private StorageQueue storageQueue;
+
+    public StorageQueue getStorageQueue() {
+        return storageQueue;
+    }
+
+    public void setStorageQueue(StorageQueue storageQueue) {
+        this.storageQueue = storageQueue;
+    }
+
+/*    public Product(StorageLock storageLock) {
         this.storageLock = storageLock;
+    }*/
+    public Product(StorageQueue storageQueue) {
+        this.storageQueue = storageQueue;
     }
 
     public int getNum() {
@@ -26,13 +39,14 @@ public class Product extends Thread {
         this.num = num;
     }
 
-    public StorageLock getStorageLock() {
+   /* public StorageLock getStorageLock() {
         return storageLock;
     }
 
     public void setStorageLock(StorageLock storageLock) {
         this.storageLock = storageLock;
-    }
+    }*/
+
 
     @Override
     public void run(){
@@ -40,6 +54,6 @@ public class Product extends Thread {
     }
 
     private void produce(int num) {
-        storageLock.product(num);
+        storageQueue.product(num);
     }
 }

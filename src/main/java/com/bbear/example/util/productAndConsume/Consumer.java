@@ -8,11 +8,19 @@ public class Consumer extends Thread {
     //消费数目
     private int num;
     //所在仓库的位置
-    private StorageLock storageLock;
+   // private StorageLock storageLock;
 
+    private StorageQueue storageQueue;
+
+    public Consumer(StorageQueue storageQueue) {
+        this.storageQueue = storageQueue;
+    }
+
+/*
     public Consumer(StorageLock storageLock) {
         this.storageLock = storageLock;
     }
+*/
 
     public int getNum() {
         return num;
@@ -22,12 +30,20 @@ public class Consumer extends Thread {
         this.num = num;
     }
 
-    public StorageLock getStorageLock() {
+   /* public StorageLock getStorageLock() {
         return storageLock;
     }
 
     public void setStorageLock(StorageLock storageLock) {
         this.storageLock = storageLock;
+    }*/
+
+    public StorageQueue getStorageQueue() {
+        return storageQueue;
+    }
+
+    public void setStorageQueue(StorageQueue storageQueue) {
+        this.storageQueue = storageQueue;
     }
 
     @Override
@@ -36,6 +52,6 @@ public class Consumer extends Thread {
     }
 
     private void consume(int num) {
-        storageLock.consumer(num);
+        storageQueue.consumer(num);
     }
 }
