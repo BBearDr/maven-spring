@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 给定一个整型数组，找出主元素，它在数组中的出现次数严格大于数组元素个数的三分之一。
+ *  。。。。。
  * @author junxiongchen
  * @date 2018/03/09
  */
@@ -36,6 +38,7 @@ public class MajorNumberSearchII {
                 count2--;
             }
         }
+        System.out.println(candidate1+";" + candidate2);
         count1 = count2 = 0;
         for (int i = 0; i < list.size(); i++) {
             if (candidate1 == list.get(i)) {
