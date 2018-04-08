@@ -9,13 +9,13 @@ package com.bbear.example.lintCode;
  */
 public class ReserveNode {
     /*ActList* reserveList(ActList* head){
-        if (Null == head || Null == head->next){xingfu
+        if (Null == head || Null == head->next){
             return head;
         }
         ActList* p,q,r;
         p = head;
         q = head->next;
-        head-next = null;
+        head->next = null;
         while(q){
             r = q->next;
             q->next = p;
