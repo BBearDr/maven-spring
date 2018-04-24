@@ -15,7 +15,6 @@ import java.util.Date;
 public class JustT1 {
     static JustT1 justT1 = new JustT1();
     public static void main(String[] args) {
-        //commit but not push
         String s = String.valueOf(null);
         System.out.println(s);
     }
