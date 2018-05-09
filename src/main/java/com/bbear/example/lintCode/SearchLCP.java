@@ -6,6 +6,10 @@ import java.util.List;
 
 /**
  * 查找最小公共前缀 例如 abc ,abcdf ,abcmb, 得到最小公共前缀是abc
+ * 思路：
+ *    1.以第一个数组作为标准，遍历所有的数组取较小的那个数组
+ *    2.对两个数组进行比较，直到两个元素不相同为止
+ *
  * @author junxiongchen
  * @date 2018/04/08
  */
