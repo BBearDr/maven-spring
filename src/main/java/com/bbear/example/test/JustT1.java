@@ -1,16 +1,18 @@
 package com.bbear.example.test;
 
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author junxiongchen
  * @date 2018/03/29
  */
 public class JustT1 {
     public static void main(String[] args) {
-        int[] A = {1, 2, 3, 7};
-        int[] B = {4, 5, 8, 9};
-        double medianSortedArrays = findMidNum(A, B);
-        System.out.println(medianSortedArrays);
+
     }
 
     private static double findMidNum(int[] A, int[] B) {
