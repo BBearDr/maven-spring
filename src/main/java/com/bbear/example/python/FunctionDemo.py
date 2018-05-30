@@ -76,7 +76,7 @@ def cal1(a, b=1, *arg, **num):
     print(a, b, arg, num)
 
 
-def cal2(a, b=1, *, d, **num):
+def cal2(a, b=1,  *,  d, **num):
     print(a, b, d, num)
 
 

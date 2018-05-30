@@ -1,10 +1,9 @@
 package com.bbear.example.test;
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * @author junxiongchen
@@ -12,7 +11,8 @@ import java.util.Map;
  */
 public class JustT1 {
     public static void main(String[] args) {
-
+        int i = -1;
+        System.out.println(1&(~i));
     }
 
     private static double findMidNum(int[] A, int[] B) {
