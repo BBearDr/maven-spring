@@ -11,8 +11,14 @@ import java.util.*;
  */
 public class JustT1 {
     public static void main(String[] args) {
-        int i = -1;
-        System.out.println(1&(~i));
+        Calendar calendar = Calendar.getInstance();
+//        calendar.setTime(new Date());
+        calendar.add(Calendar.DATE, -1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        Date zero = calendar.getTime();
+        System.out.println(zero);
     }
 
     private static double findMidNum(int[] A, int[] B) {
