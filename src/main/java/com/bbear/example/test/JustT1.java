@@ -10,15 +10,13 @@ import java.util.*;
  * @date 2018/03/29
  */
 public class JustT1 {
+    private static int num;
     public static void main(String[] args) {
-        Calendar calendar = Calendar.getInstance();
-//        calendar.setTime(new Date());
-        calendar.add(Calendar.DATE, -1);
-        calendar.set(Calendar.HOUR_OF_DAY, 0);
-        calendar.set(Calendar.MINUTE, 0);
-        calendar.set(Calendar.SECOND, 0);
-        Date zero = calendar.getTime();
-        System.out.println(zero);
+
+    }
+
+    private void test(){
+        System.out.println("tets() :" + num);
     }
 
     private static double findMidNum(int[] A, int[] B) {

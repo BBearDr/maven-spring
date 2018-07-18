@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 同时启动多个线程，并记录消耗时间
@@ -27,8 +28,9 @@ public class CountDownLatchDemo {
 
     public static void main(String[] args) {
         int nThread = 5;
-        //?为什么是1
+        //开始计数，只需要减少一次，之后所有线程都启动
         CountDownLatch startLatch = new CountDownLatch(1);
+        //结束线程，每个线程结束的时候都会减少一个，所以计数参数是线程的个数
         CountDownLatch endLatch = new CountDownLatch(nThread);
         new CountDownLatchDemo(nThread, startLatch, endLatch).timeTask();
     }
@@ -40,6 +42,7 @@ public class CountDownLatchDemo {
         long start = System.currentTimeMillis();
         //启动线程计数
         startlatch.countDown();
+
         try {
             endLatch.await();
         } catch (InterruptedException e) {
@@ -62,7 +65,7 @@ public class CountDownLatchDemo {
         public void run() {
             try {
                 //等待所有线程启动完成
-                startlatch.await();
+                startlatch.await(2, TimeUnit.SECONDS);
                 Random random = new Random();
                 int num = random.nextInt(500) + 500;
                 System.out.println(Thread.currentThread().getName() + "耗时" + num);
