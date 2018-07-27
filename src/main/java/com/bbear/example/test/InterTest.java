@@ -17,6 +17,10 @@ public class InterTest {
         return 1;
     }
     public void test(){
+        System.out.println(" InterTest init");
+    }
 
+    public static void main(String[] args) {
+        new InterTest();
     }
 }
