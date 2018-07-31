@@ -1,11 +1,5 @@
 package com.bbear.example.test.thread;
 
-import com.bbear.example.util.productAndConsume.Main;
-
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 /**
  * @author junxiongchen
  * @date 2018/01/04

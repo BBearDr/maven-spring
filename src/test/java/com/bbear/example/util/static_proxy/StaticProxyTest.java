@@ -1,5 +1,8 @@
 package com.bbear.example.util.static_proxy;
 
+import com.bbear.example.design.static_proxy.StaticSubjectFactory;
+import com.bbear.example.design.static_proxy.Subject;
+
 /**
  * 测试静态代理
  *
