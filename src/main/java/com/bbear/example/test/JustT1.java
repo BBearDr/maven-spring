@@ -12,7 +12,10 @@ import java.util.*;
 public class JustT1 {
     private static int num;
     public static void main(String[] args) {
-
+        int num = 790 % 100;
+        System.out.println(num);
+        int i = num / 10;
+        System.out.println(i);
     }
 
     private void test(){

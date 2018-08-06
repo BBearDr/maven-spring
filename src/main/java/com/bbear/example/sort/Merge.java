@@ -20,21 +20,21 @@ public class Merge {
      * 参数说明：
      * a -- 包含两个有序区间的数组
      * start -- 第1个有序区间的起始地址。
-     * mid   -- 第1个有序区间的结束地址。也是第2个有序区间的起始地址。
+     * start2   -- 第1个有序区间的结束地址。也是第2个有序区间的起始地址。
      * end   -- 第2个有序区间的结束地址。
      */
-    public static void merge(int[] a, int start, int mid, int end) {
-        System.out.println(" start :" + start + ",mid:" + mid + ",end:" + end);
+    public static void merge(int[] a, int start, int start2, int end) {
+        System.out.println(" start :" + start + ",start2:" + start2 + ",end:" + end);
         // tmp是汇总2个有序区的临时区域
         int[] tmp = new int[end - start + 1];
         // 第1个有序区的索引
         int i = start;
         // 第2个有序区的索引
-        int j = mid + 1;
+        int j = start2 + 1;
         // 临时区域的索引
         int k = 0;
 
-        while (i <= mid && j <= end) {
+        while (i <= start2 && j <= end) {
             if (a[i] <= a[j]) {
                 tmp[k++] = a[i++];
             } else {
@@ -42,7 +42,7 @@ public class Merge {
             }
         }
 
-        while (i <= mid) {
+        while (i <= start2) {
             tmp[k++] = a[i++];
         }
 
@@ -72,6 +72,10 @@ public class Merge {
         }
 
         int mid = (end + start) / 2;
+        /**
+         * 递归到两个序列中只有一个元素的时候，进行比较(步长为1，进行两两比较)并且赋值给临时数组
+         * 而后依次进行增加两个序列的步长(+1)
+         */
         // 递归排序a[start...mid]
         mergeSortUp2Down(a, start, mid);
         // 递归排序a[mid+1...end]
