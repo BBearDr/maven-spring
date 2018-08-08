@@ -1,6 +1,9 @@
 package com.bbear.example.test;
 
 
+import com.bbear.example.design.singleton.SingletonEnum;
+import com.bbear.example.design.singleton.StaticFun;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -12,10 +15,7 @@ import java.util.*;
 public class JustT1 {
     private static int num;
     public static void main(String[] args) {
-        int num = 790 % 100;
-        System.out.println(num);
-        int i = num / 10;
-        System.out.println(i);
+        SingletonEnum instance = SingletonEnum.INSTANCE;
     }
 
     private void test(){
