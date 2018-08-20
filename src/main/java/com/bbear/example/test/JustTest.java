@@ -1,9 +1,8 @@
 package com.bbear.example.test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.util.*;
 import java.util.concurrent.*;
 
 /**
@@ -17,14 +16,21 @@ public class JustTest {
     }
 
     public static void main(String[] args)  {
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.submit(new Runnable() {
-            @Override
-            public void run() {
-
-                System.out.println("send result:" + 123);
-            }
-        });
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 2);
+        map.put(3, 3);
+        map.put(4, 4);
+        Set<Map.Entry<Integer, Integer>> map1 = map.entrySet();
+        for (Map.Entry<Integer, Integer> a : map1) {
+            System.out.println(a.getKey());
+            System.out.println(a.getValue());
+        }
+        for (Integer key : map.keySet()) {
+         //   System.out.println(key);
+        }
+        for (Integer values : map.values()) {
+           // System.out.println(values);
+        }
     }
     private static boolean check(){
         boolean result = false;
