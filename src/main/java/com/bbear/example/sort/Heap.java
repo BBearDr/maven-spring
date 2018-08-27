@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 堆排序
  * 思路： 将数组构建成大顶堆(最大的元素在最上面),将最上面的结点和末尾元素进行交换
  *              依次进行，直到最后一个元素
- *时间复杂度 O(nlogn)
+ *时间复杂度 O(nlognz)
  * @author junxiongchen
  * @date 2018/07/30
  */
@@ -14,7 +14,7 @@ public class Heap {
     public static void main(String[] args) {
         int[] sortNum = Numbers.SORT_NUM;
         sort(sortNum);
-   //     System.out.println(Arrays.toString(sortNum));
+        System.out.println(Arrays.toString(sortNum));
     }
 
     public static void sort(int[] arr) {
@@ -35,7 +35,8 @@ public class Heap {
     }
 
     /**
-     * 调整大顶堆（仅是调整过程，建立在大顶堆已构建的基础上）
+     * 调整大顶堆，只是构建出大顶堆
+     * 每个非叶子结点往下遍历查询
      *
      * @param arr 排序数组
      * @param i 第一个非叶子结点
@@ -51,6 +52,7 @@ public class Heap {
                 k++;
             }
             //如果子节点大于父节点，将子节点值赋给父节点（不用进行交换）
+            //循环完成之后将最后空余的位置在赋值为temp
             if (arr[k] > temp) {
                 arr[i] = arr[k];
                 i = k;
@@ -63,7 +65,7 @@ public class Heap {
     }
 
     /**
-     * 交换方法
+     * 交换方法，将堆顶的元素和最后元素交换
      * @param arr 数组
      * @param a 待交换a
      * @param b 待交换b
