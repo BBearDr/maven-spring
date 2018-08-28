@@ -30,7 +30,12 @@ public class StackMin {
         System.out.println(stackMin.s);
         System.out.println(stackMin.fuzhu);
     }
-    //压入堆的顶部
+
+    /**
+     * 将新入元素压入s栈，同时比较，压入元素和辅助栈栈顶元素谁的小，压入谁
+     *
+     * @param number
+     */
     private  void push(int number) {
         s.push(number);
         if (fuzhu.isEmpty() == true) {
@@ -45,7 +50,12 @@ public class StackMin {
             }
         }
     }
-    //移除堆顶部的对象并且返回
+
+    /**
+     * 移除堆顶部的对象并且返回
+     * @return
+     * @throws Exception
+     */
     private int pop() throws Exception {
         if (s.isEmpty() == true) {
             throw new Exception("stack is null");
@@ -55,6 +65,11 @@ public class StackMin {
         }
     }
 
+    /**
+     * 返回辅助栈顶的元素
+     * @return
+     * @throws Exception
+     */
     private int min() throws Exception {
         if (fuzhu.isEmpty() == true) {
             throw new Exception("min stack is null");
