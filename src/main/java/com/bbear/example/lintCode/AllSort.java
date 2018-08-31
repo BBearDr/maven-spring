@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 全排列 -- 深度优先搜索
+ * 1.全排列 -- 深度优先搜索
+ * 2.全排列（数组中存在重复元素）
  *
  * @author junxiongchen
  * @date 2018/08/28
@@ -24,6 +25,11 @@ public class AllSort {
         if (nums.length == 0) {
             return null;
         }
+        /**
+         * 对数组中存在重复元素的数组，要先进行排序，使相同的在一起
+         */
+        //Arrays.sort(nums);
+
         List<List<Integer>> result = new ArrayList<>();
         dfs(nums, result,new ArrayList<Integer>(),new boolean[nums.length]);
         return result;
@@ -48,6 +54,13 @@ public class AllSort {
             if (visited[i]) {
                 continue;
             }
+            /**
+             * 对数组中存在相同元素的进行筛选，相同元素只进行一次排序
+             * 条件：存在前一个元素和当前元素相同，且并未标记过
+             */
+          /*  if (i > 0 && nums[i] == nums[i - 1] && !visited[i - 1]) {
+                continue;
+            }*/
             //标记元素
             permutation.add(nums[i]);
             visited[i] = true;

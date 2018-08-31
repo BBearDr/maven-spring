@@ -1,6 +1,8 @@
 package com.bbear.example.design.decorated;
 
 /**
+ * 装饰模式基础元素的抽象类
+ * 价钱+描述
  * @author junxiongchen
  * @date 2018/02/01
  */
