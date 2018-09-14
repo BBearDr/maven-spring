@@ -37,9 +37,9 @@ public class ThreadDemo {
     }
 
     public void add() {
-        for (int i = 0; i < 10; i++) {
-            lock.lock();
-            try {
+        lock.lock();
+        try {
+            for (int j = 0; j < 10; j++) {
                 while (flag) {
                     try {
                         addCondition.await();
@@ -52,16 +52,16 @@ public class ThreadDemo {
                 System.out.println(Thread.currentThread().getName() + ":" + count);
                 flag = true;
                 subCondition.signal();
-            } finally {
-                lock.unlock();
             }
+        } finally {
+            lock.unlock();
         }
     }
 
     public void sub() {
-        for (int i = 0; i < 10; i++){
-            lock.lock();
-            try {
+        lock.lock();
+        try {
+            for (int j = 0; j < 10; j++) {
                 while (!flag) {
                     try {
                         subCondition.await();
@@ -74,9 +74,9 @@ public class ThreadDemo {
                 System.out.println(Thread.currentThread().getName() + ":" + count);
                 flag = false;
                 addCondition.signal();
-            }finally {
-                lock.unlock();
             }
+        }finally {
+            lock.unlock();
         }
     }
 }

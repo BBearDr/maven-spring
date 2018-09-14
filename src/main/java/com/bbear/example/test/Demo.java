@@ -1,5 +1,11 @@
 package com.bbear.example.test;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
 /**
  * @author junxiongchen
  * @date 2018/08/20
@@ -7,10 +13,40 @@ package com.bbear.example.test;
 public class Demo {
     public static int num = 397;
     public static void main(String[] args) {
-        Demo demo = new Demo();
-        char[] chars = {'a','b','A','c','D'};
-        demo.sortLetters(chars);
+        int result = 1;
+        System.out.println(getB());
+    }
+    private static boolean getB(){
+        int result =0;
+        return result == 1;
+    }
 
+    public List<String> DataList(String startTime, String endTime){
+        List<String> list = new ArrayList<String>();
+        try {
+            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+            Date start = format.parse(startTime);
+            Date end = format.parse(endTime);
+            if (end.before(start)) {
+                return null;
+            } else if (end.equals(start)) {
+                list.add(endTime);
+            } else {
+                Calendar tempStart = Calendar.getInstance();
+                tempStart.setTime(start);
+                Calendar tempEnd = Calendar.getInstance();
+                tempEnd.setTime(end);
+                while (tempStart.before(tempEnd)) {
+                    list.add(format.format(tempStart.getTime()).toString());
+                    tempStart.add(Calendar.DAY_OF_YEAR, 1);
+                }
+                list.add(endTime);
+            }
+            return list;
+        } catch (Exception e) {
+        }
+
+        return list;
     }
 
     private static void solution(int num) {
