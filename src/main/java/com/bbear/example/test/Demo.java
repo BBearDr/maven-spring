@@ -13,8 +13,9 @@ import java.util.List;
 public class Demo {
     public static int num = 397;
     public static void main(String[] args) {
-        int result = 1;
-        System.out.println(getB());
+        do {
+            System.out.println(123);
+        } while (true);
     }
     private static boolean getB(){
         int result =0;
