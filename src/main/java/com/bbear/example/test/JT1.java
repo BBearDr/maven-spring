@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
  */
 public   class JT1 extends InterTest{
     static {
-        System.out.println("JT1 static");
+        System.out.println("JT1 static...");
     }
     private String str = getStr();
     private int num ;
