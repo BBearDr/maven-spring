@@ -3,6 +3,7 @@ package com.bbear.example.thread;
 import java.util.concurrent.CountDownLatch;
 
 /**
+ *  计数器。侧重点是某一个线程执行完成之后在等待其他的线程执行完成，之后该线程再执行
  * @author junxiongchen
  * @date 2018/09/11
  */

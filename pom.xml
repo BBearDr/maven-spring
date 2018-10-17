@@ -115,6 +115,11 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>com.dajie</groupId>
+      <artifactId>dj-common-util</artifactId>
+      <version>1.5.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>maven-spring</finalName>

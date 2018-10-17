@@ -10,10 +10,12 @@ import java.util.List;
 public class ExtendProtocol extends ImplProtocol {
     public ExtendProtocol(List<String> list) {
         super(list);
+        System.out.println("construct:"+list.size());
     }
     public static void main(String[] args) {
+        ExtendProtocol extendProtocol = new ExtendProtocol(new ArrayList<>());
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+            System.out.println("123:"+list.get(i));
         }
         ImplProtocol implProtocol = new ImplProtocol(new ArrayList<String>());
         List<String> export = implProtocol.export();

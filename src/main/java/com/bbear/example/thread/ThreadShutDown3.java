@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * @date 2018/09/17
  */
 public class ThreadShutDown3 {
-    private static ExecutorService es = new ThreadPoolExecutor(1, 3, 1L, TimeUnit.MILLISECONDS,
+    private static ExecutorService es = new ThreadPoolExecutor(2, 3, 1L, TimeUnit.MILLISECONDS,
             new ArrayBlockingQueue<Runnable>(10), new ThreadPoolExecutor.DiscardPolicy());
 
     public static void main(String[] args) {
@@ -15,12 +15,12 @@ public class ThreadShutDown3 {
             es.execute(new Runnable() {
                 @Override
                 public void run() {
+                    System.out.println(Thread.currentThread().getName() + ":"+123);
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(4000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    int num = Integer.parseInt("1");
                 }
             });
         }

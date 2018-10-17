@@ -8,6 +8,7 @@ package com.bbear.example.design.singleton;
  */
 public class DoubleCheck {
     private DoubleCheck() {
+        System.out.println(123);
     }
 
     /**
