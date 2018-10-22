@@ -25,12 +25,11 @@ public class Demo {
     public static int num = 397;
 
     public static void main(String[] args) {
-        Demo demo = new Demo();
-        String s = demo.checkUrl("http://t.dajie.com/job/invitationletter/{invitationId}?source=EMAIL");
-        System.out.println(s);
-
+        float a =501 / 500;
+        int ceil = (int) Math.ceil((float)1/(float)500);
+        System.out.println(a);
+        System.out.println(ceil);
     }
-
     private String checkUrl(String redirectUrl) {
         Pattern DAJIE_URL_PATTERN = Pattern.compile("^((http|https)://)?(\\w+\\.){0,}(dajie\\.com|dajie\\.me|d-j\\.me|51job.com)", 42);
         String redirectUrlLowerCase = redirectUrl.toLowerCase();
