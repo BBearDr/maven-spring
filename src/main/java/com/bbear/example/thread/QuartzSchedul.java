@@ -11,6 +11,8 @@ import java.util.Date;
 import java.util.Properties;
 
 /**
+ * quartz 定时任务
+ *
  * @author junxiongchen
  * @date 2018/10/19
  */
