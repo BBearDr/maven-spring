@@ -11,8 +11,10 @@ import java.util.Arrays;
  */
 public class Quick {
     public static void main(String[] args) {
-        int[] sortNum = Numbers.SORT_NUM;
-        solution(sortNum, 0, sortNum.length-1);
+//        int[] sortNum = Numbers.SORT_NUM;
+        int[] sortNum = {0, 79, 63,24, 39, 95, 71};
+        solution1(sortNum, 0, sortNum.length-1);
+        System.out.println(Arrays.toString(sortNum));
     }
 
     /**
@@ -56,5 +58,34 @@ public class Quick {
             solution(nums, i + 1, end);
         }
 
+    }
+
+    private static void solution1(int[] nums,int start,int end) {
+        if (start > end) {
+            return ;
+        }
+        int left = start;
+        int right = end;
+        int pivot = nums[left];
+        while (left < right) {
+            while (left < right && nums[left] < pivot) {
+                left++;
+            }
+            while (left < right && nums[right] >pivot) {
+                right--;
+            }
+            if (left < right) {
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+                left++;
+                right--;
+            }
+        }
+        //此时left == right
+//        nums[left] = pivot;
+        System.out.println(Arrays.toString(nums));
+        solution1(nums, start, left - 1);
+        solution1(nums,left+1,end);
     }
 }
