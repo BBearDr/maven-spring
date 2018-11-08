@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -25,10 +26,15 @@ public class Demo {
     public static int num = 397;
 
     public static void main(String[] args) {
-        float a =501 / 500;
-        int ceil = (int) Math.ceil((float)1/(float)500);
-        System.out.println(a);
-        System.out.println(ceil);
+       Pattern httpPattern = Pattern.compile("\\s*(AURL|aurl|URL|url)\\s*\\{\\s*(((http|ftp|https)://)*(([a-zA-Z0-9\\._-]+\\.[a-zA-Z]{2,6})|([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}))(:[0-9]{1,4})*([a-zA-Z0-9\\*\\&#%_\\./-~-,\\+]*)?)\\s*\\}\\s*");
+        String content = "张三,南昌大学的辅导员老师点评了你们班的同学，其中对你的评价最有意思哦：url{https%3A%2F%2Fm.dajie.com%2Fh5lachaine%2Findex%3Fname%3D%E5%BC%A0%E4%B8%89%26schoolName%3D%E5%8D%97%E6%98%8C%E5%A4%A7%E5%AD%A6%26lType%3D10301}";
+        Matcher matcher1 = httpPattern.matcher(content.trim());
+        if (matcher1.find() && !matcher1.group(0).contains("d-j.me")) {
+            System.out.println(2);
+        }
+        else{
+            System.out.println(1);
+        }
     }
     private String checkUrl(String redirectUrl) {
         Pattern DAJIE_URL_PATTERN = Pattern.compile("^((http|https)://)?(\\w+\\.){0,}(dajie\\.com|dajie\\.me|d-j\\.me|51job.com)", 42);
