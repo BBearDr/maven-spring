@@ -38,4 +38,24 @@ public class SmsRequest {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        SmsRequest that = (SmsRequest) o;
+
+//        if (!id.equals(that.id)) return false;
+//        if (!name.equals(that.name)) return false;
+        return address.equals(that.address);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id.hashCode();
+       /* result = 31 * result + name.hashCode();
+        result = 31 * result + address.hashCode();*/
+        return result;
+    }
 }

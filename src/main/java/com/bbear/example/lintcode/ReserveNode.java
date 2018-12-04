@@ -43,7 +43,7 @@ public class ReserveNode {
         Node next;
         while (cur != null){
             next = cur.getNextSibling();
-        //    cur.getNextSibling() = pre;
+//            cur.getNextSibling() = pre;
             pre = cur;
             cur = next;
         }
