@@ -26,7 +26,7 @@ public class Test {
     }
 
     public void test1() {
-        System.out.println("这是master在垃取分支后第一次push");
+        System.out.println("这是master在垃取分支后第2次push");
     }
 
     public void tes(Callable<String> t1) {
