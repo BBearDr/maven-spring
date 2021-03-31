@@ -18,10 +18,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Test test = new Test();
-
-        test.tes(() -> test.getTest());
-        System.out.println(1);
+        System.out.println("分支第一次commit");
 
     }
 
