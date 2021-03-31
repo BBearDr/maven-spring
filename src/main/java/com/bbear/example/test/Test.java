@@ -18,7 +18,10 @@ public class Test {
 
     public static void main(String[] args) {
 
-        System.out.println("分支第二次commit");
+        System.out.println("分支第3次commit -1");
+        System.out.println("分支第3次commit -2");
+        System.out.println("分支第3次commit -3");
+        System.out.println("分支第3次commit -4");
 
     }
 
