@@ -15,12 +15,13 @@ import java.util.function.Supplier;
 public class FunctionTestMain {
 
     public static void main(String[] args) {
-        Function<Integer, String> function = functionTest(new ArrayList<>());
-        String apply = function.apply(123);
-//        System.out.println(apply);
-
-        consumerTest("abc", x -> System.out.println(x + "123"));
-
+//        Function<Integer, String> function = functionTest(new ArrayList<>());
+//        String apply = function.apply(123);
+////        System.out.println(apply);
+//
+//        consumerTest("abc", x -> System.out.println(x + "123"));
+        long a = 2072026950 % 99;
+        System.out.println(a);
     }
 
     public static Function<Integer,String> functionTest(List<String> list) {
